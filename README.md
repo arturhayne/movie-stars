@@ -1,13 +1,18 @@
 # Laravel Assessment
 
-## PHP Movies
+### Instructions
+1. Create a new repository in your Github account using the provided application zip.
+2. Establish an initial commit with the provided code.
+3. Complete the functional requirements below & commit these changes to your repository.
+4. Share your repository with us.
 
-### Requirements
+
+### Setup
+
+#### System Requirements
 
 -   Docker Desktop
 -   WSL2 (Windows only)
-
-### Setup
 
 Start by forking the repository to your own GitHub account. Then clone the forked repository to your local machine.
 
