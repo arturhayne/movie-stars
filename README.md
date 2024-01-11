@@ -12,17 +12,14 @@ The database is seeded with 5 actors and 3 movies and the application uses eloqu
 -   Docker
 
 ### How to run  
-Create a `.env` file.
 
-```bash
-cp .env.example .env
-```
-
- 1. `docker-compose up -d`
- 2. `docker-compose exec laravel.test bash` (command to get inside the container)
- 3. `composer install` (inside container)
- 4. `php artisan migrate` (inside container)
- 5. `php artisan db:seed` (inside container)
+ 1. `docker run --rm -v "$(pwd)":/app -u 1000:1000 -e COMPOSER_HOME=/tmp --workdir /app bitnami/laravel composer install`
+ 2. `docker run --rm -v "$(pwd)":/app -u 1000:1000 -e COMPOSER_HOME=/tmp --workdir /app bitnami/laravel npm install`
+ 3. `cp .env.example .env`
+ 3. `docker-compose up -d`
+ 4. `docker-compose exec laravel.test bash` (command to get inside the container)
+ 5. `php artisan migrate` (inside container)
+ 6. `php artisan db:seed` (inside container)
 
 
 ### Code style
