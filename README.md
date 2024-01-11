@@ -6,6 +6,18 @@ This application has two views:
 
 The database is seeded with 5 actors and 3 movies and the application uses eloquent relationship between actors and movies.
 
+## Demo
+List of Actors:
+
+https://github.com/IBI-Group-Recharge/laravel-assessment-template/assets/3584554/e2377d2b-c18f-4382-8044-530dde35185a
+
+Star Wars people:
+
+https://github.com/arturhayne/movie-stars/assets/3584554/060e44fd-7696-4b3e-8748-f2e0a6c082e7
+
+## PRs
+ * [List of Actors](https://github.com/arturhayne/movie-stars/pull/1)
+ * [Star Wars people](https://github.com/arturhayne/movie-stars/pull/2)
 
 ### Requirements
 
